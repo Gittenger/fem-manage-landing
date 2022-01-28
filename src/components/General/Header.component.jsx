@@ -4,20 +4,20 @@ import images from '../../assets/img-index.js'
 import styles from './styles/Header.module.css'
 import gridStyles from './styles/Layout.module.css'
 
-const HeaderStyles = 'relative grid w-full bg-gray-300'
+const HeaderStyles = 'relative grid w-full'
 
 const {
   img: { LogoImg },
 } = images
 
-const Header = () => {
+const Header = ({ className }) => {
   const { HamburgerMenu } = CIndex
   return (
     <header
       className={`HEADER ${HeaderStyles} ${gridStyles.gridSection} ${styles.header}`}
     >
-      <HamburgerMenu className={`${styles.btn}`} />
-      <img className={`${styles.logo}`} src={LogoImg} alt="" />
+      <HamburgerMenu className={`${styles.btn} z-50`} />
+      <img className={`${styles.logo} z-50`} src={LogoImg} alt="" />
     </header>
   )
 }

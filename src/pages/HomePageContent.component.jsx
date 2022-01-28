@@ -12,7 +12,7 @@ const HomePageContent = () => {
 
   return (
     <>
-      <div className={`w-full bg-gray-400 ${styles.grid}`}></div>
+      <div className={`${styles.bgImg} z-10 absolute`}></div>
     </>
   )
 }

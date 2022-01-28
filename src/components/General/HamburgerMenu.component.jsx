@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from './styles/HamburgerMenu.module.css'
 
-const btn = 'relative z-50 cursor-pointer transition duration-500'
+const btn = 'relative cursor-pointer transition duration-500'
 const icon = 'transition duration-500 absolute'
 const left = ''
 const right = ''
