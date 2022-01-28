@@ -14,7 +14,7 @@ const Header = ({ className }) => {
   const { HamburgerMenu } = CIndex
   return (
     <header
-      className={`HEADER ${HeaderStyles} ${gridStyles.gridSection} ${styles.header}`}
+      className={`HEADER ${HeaderStyles} ${gridStyles.gridHeader} ${styles.header}`}
     >
       <HamburgerMenu className={`${styles.btn} z-50`} />
       <img className={`${styles.logo} z-50`} src={LogoImg} alt="" />

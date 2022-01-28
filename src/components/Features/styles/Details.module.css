@@ -2,6 +2,14 @@
   grid-column: full-start / full-end;
 
   & > div:first-child {
+    grid-row: 1 / 2;
     grid-column: center-start / center-end;
+    justify-self: start;
+  }
+
+  & > div:nth-child(2) {
+    align-self: start;
+    grid-column: full-start / full-end;
+    grid-row: 2 / 3;
   }
 }

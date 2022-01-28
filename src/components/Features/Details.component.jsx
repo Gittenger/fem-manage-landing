@@ -7,8 +7,10 @@ const Details = () => {
   const {} = CIndex
 
   return (
-    <div className={`grid ${styles.grid} ${gridStyles.gridSection} pt-32`}>
-      <div className="w-full flex flex-col items-center">
+    <div
+      className={`grid ${styles.grid} ${gridStyles.gridSection} pt-32 w-full`}
+    >
+      <div className="w-full flex flex-col items-center mb-10">
         <h2 className="text-3xl font-black text-center mb-4">
           What’s different about Manage?
         </h2>
@@ -17,6 +19,12 @@ const Details = () => {
           complexity. Our software is tailor-made for modern digital product
           teams.
         </p>
+      </div>
+      <div>
+        <div className="flex justify-start items-center h-10">
+          <div className="mx-5">01</div>
+          <p>Track company-wide progress</p>
+        </div>
       </div>
     </div>
   )
