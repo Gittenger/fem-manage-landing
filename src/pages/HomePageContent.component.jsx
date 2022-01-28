@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import styles from './styles/HomePage.module.css'
 
 import CIndex from '../components/components.index.js'
 
@@ -11,7 +12,7 @@ const HomePageContent = () => {
 
   return (
     <>
-      <div className="w-full grid justify-items-center px-5">hello</div>
+      <div className={`w-full bg-gray-400 ${styles.grid}`}>hello</div>
     </>
   )
 }

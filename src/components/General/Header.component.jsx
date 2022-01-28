@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from './styles/Header.module.css'
 
-const HeaderStyles = 'pt-60 pb-6 w-full flex justify-center'
+const HeaderStyles = 'flex justify-center bg-gray-300'
 
 const Header = () => {
   return (
-    <header className={HeaderStyles}>
+    <header className={`HEADER ${HeaderStyles} ${styles.header}`}>
       <h1>Let's get started building components...</h1>
     </header>
   )

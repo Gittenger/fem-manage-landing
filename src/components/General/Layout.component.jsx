@@ -1,16 +1,15 @@
 import React from 'react'
 import CIndex from '../components.index'
+import styles from './styles/Layout.module.css'
 
-const LayoutStyles = 'layout'
-
-const ContentStyles = 'content'
+const layout = 'LAYOUT grid w-full'
 
 const Layout = ({ children }) => {
   const { Header } = CIndex
   return (
-    <div className={LayoutStyles}>
+    <div className={`${layout} ${styles.grid}`}>
       <Header />
-      <div className={ContentStyles}>{children}</div>
+      {children}
     </div>
   )
 }
