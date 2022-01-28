@@ -20,3 +20,12 @@
     width: 99%;
   }
 }
+
+.cta {
+  grid-row: 3 / 4;
+  grid-column: center-start / center-end;
+
+  p {
+    width: 97%;
+  }
+}
