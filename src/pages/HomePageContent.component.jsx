@@ -12,7 +12,7 @@ const HomePageContent = () => {
 
   return (
     <>
-      <div className={`w-full bg-gray-400 ${styles.grid}`}>hello</div>
+      <div className={`w-full bg-gray-400 ${styles.grid}`}></div>
     </>
   )
 }

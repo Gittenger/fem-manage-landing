@@ -2,3 +2,31 @@
   grid-column: full-start / full-end;
   grid-row: 1 / 2;
 }
+
+.logo {
+  grid-column: center-start / col-end 4;
+  grid-row: 1 / 2;
+  align-self: center;
+  width: 80%;
+
+  @media screen(xs) {
+    grid-column: center-start / col-end 3;
+    width: 80%;
+  }
+
+  @media screen(sm) {
+    grid-column: center-start / col-end 2;
+    width: 100%;
+  }
+
+  @media screen(sm2) {
+    width: 70%;
+  }
+}
+
+.btn {
+  grid-column: col-start 8 / col-end 8;
+  grid-row: 1 / 2;
+  align-self: center;
+  justify-self: end;
+}

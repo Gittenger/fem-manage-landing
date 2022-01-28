@@ -8,3 +8,13 @@
     )
     [center-end] minmax(2rem, 1fr) [full-end];
 }
+
+.gridSection {
+  grid-template-rows: 8rem;
+  grid-template-columns:
+    [full-start] minmax(2rem, 1fr) [center-start] repeat(
+      8,
+      [col-start] minmax(min-content, 9rem) [col-end]
+    )
+    [center-end] minmax(2rem, 1fr) [full-end];
+}
