@@ -8,7 +8,7 @@ const {
 } = images
 
 const HomePageContent = () => {
-  const {} = CIndex
+  const { Cta } = CIndex
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -22,15 +22,7 @@ const HomePageContent = () => {
       >
         <img src={IntroImg} alt="" />
       </div>
-      <div className={`${styles.cta} pt-6 flex flex-col items-center`}>
-        <h1 className="text-center text-4xl font-black">
-          Bring everyone together to build better products.
-        </h1>
-        <p className="pt-2.5 text-center text-lg font-light text-gray-600">
-          Manage makes it simple for software teams to plan day-to-day tasks
-          while keeping the larger team goals in view.
-        </p>
-      </div>
+      <Cta />
     </>
   )
 }
