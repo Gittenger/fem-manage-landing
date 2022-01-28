@@ -6,3 +6,14 @@
     width: 97%;
   }
 }
+
+.bgImg {
+  width: 100vw;
+  height: 100vh;
+  bottom: -100px;
+  left: 0;
+  background-image: url('../../../assets/img/bg-tablet-pattern.svg');
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: right -150px bottom;
+}
