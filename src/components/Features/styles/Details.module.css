@@ -1,0 +1,7 @@
+.grid {
+  grid-column: full-start / full-end;
+
+  & > div:first-child {
+    grid-column: center-start / center-end;
+  }
+}
