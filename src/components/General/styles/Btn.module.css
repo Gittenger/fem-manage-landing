@@ -1,5 +1,6 @@
 .btn {
   min-width: 9rem;
+  max-width: 9rem;
 }
 
 .btnSm {

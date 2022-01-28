@@ -8,7 +8,7 @@ const {
 } = images
 
 const HomePageContent = () => {
-  const { Cta, Details } = CIndex
+  const { Cta, Details, Testimonials } = CIndex
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -24,6 +24,7 @@ const HomePageContent = () => {
       </div>
       <Cta />
       <Details />
+      <Testimonials />
     </>
   )
 }

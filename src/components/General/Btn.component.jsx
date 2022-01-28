@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './styles/Btn.module.css'
 
-const Btn = ({ className, textContent, sm }) => {
+const Btn = ({ id, className, textContent, sm }) => {
   return (
     <button
+      id={id}
       className={`${className} font-bold py-3 px-4 rounded-3xl duration-300 ${
         sm ? styles.btnSm : styles.btn
       } bg-red-600 text-white hover:bg-red-300 hover:shadow-xl border-none`}
