@@ -1,5 +1,6 @@
 import LogoImg from './img/logo.svg'
 import BgPattern from './img/bg-tablet-pattern.svg'
+import IntroImg from './img/illustration-intro.svg'
 
 export const images = {
   avatar: {},
@@ -7,6 +8,7 @@ export const images = {
   img: {
     BgPattern,
     LogoImg,
+    IntroImg,
   },
 }
 

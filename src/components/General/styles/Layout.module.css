@@ -1,5 +1,5 @@
 .grid {
-  grid-template-rows: 8rem min-content;
+  grid-template-rows: 8rem minmax(15rem, max-content);
   grid-auto-rows: min-content;
   grid-template-columns:
     [full-start] minmax(2rem, 1fr) [center-start] repeat(
