@@ -1,0 +1,10 @@
+.wrapper {
+  grid-column: center-start / center-end;
+  min-height: 250px;
+}
+
+#avatar {
+  top: -45px;
+  width: 90px;
+  height: 90px;
+}
